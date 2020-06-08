@@ -1,6 +1,6 @@
 #Submitted by thr3sh0ld
 class Solution:
-    def change(self, amount: int, coins: List[int]) -> int:
+        def change(self, amount: int, coins: List[int]) -> int:
         count = [0] * (amount + 1)  #initializing array with zero 
         count[0] = 1                #One's addition will always result in amount
         for i in coins:
