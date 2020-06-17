@@ -1,4 +1,4 @@
-#Sub,itted by thr3sh0ld
+#Submitted by thr3sh0ld
 #Logic: start from edges and keep a check of "O" in the edges and rem "O" in the frame to be converted to X. 
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
