@@ -1,5 +1,5 @@
 #Submitted by thr3sh0ld
-#Logic : handle all basic differences b/w IPv4 and IPv6. Readable code.
+#Logic :handle all basic differences b/w IPv4 and IPv6. Readable code.
 class Solution:
     def IPv4(self,IP):
             collec = IP.split('.')
