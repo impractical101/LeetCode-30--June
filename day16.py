@@ -28,4 +28,4 @@ class Solution:
     def validIPAddress(self, IP: str) -> str:
         if self.IPv4(IP): return 'IPv4'
         elif self.IPv6(IP): return 'IPv6'
-        else: return 'Neither'
+        else: return 'Neither'  
