@@ -1,5 +1,5 @@
 #Submitted by thr3sh0ld
-#Logic: Use Counter as its mentioned there is only one duplicate number. xD
+#Logic: Use Counter as its mentioned there is only one duplicate number(can be repeated multiple times).
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         count = Counter(nums)
